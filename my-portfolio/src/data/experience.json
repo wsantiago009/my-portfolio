@@ -1,0 +1,41 @@
+{
+    "experience": [
+        {
+            "company": "Unionbank Online",
+            "tenure": "Sept 2021 - Present",
+            "sub-company": "Whitecloak Technologies, Inc.",
+            "role": "Frontend Developer",
+            "responsibilities": [
+                "Enhanced user onboarding, resulting in a smoother and more efficient user experience.",
+                "Accelerated development by creating reusable components, boosting scalability and productivity.",
+                "Improved UI usability and visual appeal by aligning designs with Figma standards.",
+                "Fostered effective cross-functional collaboration, contributing to successful project outcomes.",
+                "Drove Agile project success by adapting quickly to changing requirements and delivering on time."
+            ]
+        },
+        {
+            "company": "Atmos Cloud Solutions, Inc.",
+            "tenure": "Feb 2021 - Aug 2021",
+            "sub-company": null,
+            "role": "Frontend Developer",
+            "responsibilities": [
+                "Ensure high quality graphic standards and brand consistency.",
+                "Build reusable code for future use.",
+                "Timeline estimation of future project phases."
+            ]
+        },
+        {
+            "company": "Libelle Creative Inc.",
+            "tenure": "2013 - 2021",
+            "sub-company": null,
+            "role": "Web Developer",
+            "responsibilities": [
+                "Convert Prototypes into a running website.",
+                "Website responsiveness.",
+                "Managing the company's server (Linux/UNIX).",
+                "Creating a website environment for clients.",
+                "Domain management."
+            ]
+        }
+    ]
+}
