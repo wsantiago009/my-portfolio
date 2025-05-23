@@ -1,11 +1,16 @@
 import useFetch from '@/hooks/useFetch'
 
 import ContactElem from '@/components/ContactList'
-import { Contact } from '@/types'
+import ExperienceList from '@/components/ExperienceList'
+
+import { Contact, Experience } from '@/types'
 
 export default async function Home() {
     const contactData: Contact[] = await useFetch(
         'http://localhost:3000/api/contact',
+    )
+    const experienceData: Experience[] = await useFetch(
+        'http://localhost:3000/api/experience',
     )
 
     return (
@@ -30,6 +35,13 @@ export default async function Home() {
                     {contactData &&
                         contactData?.map((item: Contact, i) => (
                             <ContactElem key={i} content={item} />
+                        ))}
+                </div>
+                <div className="px-16 py-10">
+                    <h4 className="text-2xl text-gray-700 mb-4">EXPERIENCE</h4>
+                    {experienceData &&
+                        experienceData?.map((item: Experience, i) => (
+                            <ExperienceList key={i} content={item} />
                         ))}
                 </div>
             </div>
