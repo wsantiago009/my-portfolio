@@ -1,15 +1,10 @@
 import useFetch from '@/hooks/useFetch'
 
-import ContactElem from '@/components/Contact'
-
-type Contact = {
-    address: string
-    mobile: string
-    email: string
-}
+import ContactElem from '@/components/ContactList'
+import { Contact } from '@/types'
 
 export default async function Home() {
-    const contactData: Contact = await useFetch(
+    const contactData: Contact[] = await useFetch(
         'http://localhost:3000/api/contact',
     )
 
@@ -32,13 +27,10 @@ export default async function Home() {
                     </p>
                 </div>
                 <div className="bg-gray-200 py-3 px-16 flex justify-between items-center">
-                    {contactData && (
-                        <>
-                            <ContactElem content={contactData.address} />
-                            <ContactElem content={contactData.mobile} />
-                            <ContactElem content={contactData.email} />
-                        </>
-                    )}
+                    {contactData &&
+                        contactData?.map((item: Contact, i) => (
+                            <ContactElem key={i} content={item} />
+                        ))}
                 </div>
             </div>
         </div>

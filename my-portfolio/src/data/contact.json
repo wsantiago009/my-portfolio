@@ -1,5 +1,14 @@
-{
-    "address": "Pulanglupa DOS, Las Piñas City, Metro Manila",
-    "mobile": "+63 961 081 3034",
-    "email": "w.santiago009@gmail.com"
-}
+[
+    {
+        "contact_data": "Pulanglupa DOS, Las Piñas City, Metro Manila",
+        "icon": "MapPin"
+    },
+    {
+        "contact_data": "+63 961 081 3034",
+        "icon": "Smartphone"
+    },
+    {
+        "contact_data": "w.santiago009@gmail.com",
+        "icon": "Mail"
+    }
+]
