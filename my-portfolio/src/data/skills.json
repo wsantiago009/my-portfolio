@@ -1,13 +1,11 @@
-{
-    "skills": [
-        "React JS",
-        "Redux",
-        "Javascript",
-        "Typescript",
-        "Bootstrap/AntD Framework",
-        "GIT",
-        "HTML / HTML 5",
-        "CSS / CSS3",
-        "Agile (Scrum, Kanban)"
-    ]
-}
+[
+    "React JS",
+    "Redux",
+    "Javascript",
+    "Typescript",
+    "Bootstrap / AntD Framework",
+    "GIT",
+    "HTML / HTML 5",
+    "CSS / CSS3",
+    "Agile (Scrum, Kanban)"
+]
