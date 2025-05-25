@@ -1,0 +1,15 @@
+[
+    {
+        "project": "Unionbank Online",
+        "highlight": [
+            "Played a key role in developing a seamless and user-friendly digital onboarding/account opening process.",
+            "Enhanced the Credit Risk Rating (CRR) system by dynamically adjusting required fields based on employment type — reducing fraudulent account openings by 30–35%.",
+            "Helped reduce manual review effort by 40–45%, improving operational efficiency and decreasing approval time.",
+            "Created reusable React components that accelerated development speed and improved consistency across the application.",
+            "Collaborated with cross-functional teams (QA, UX, Product Owners) to align on design, functionality, and business goals.",
+            "Improved UI/UX by closely aligning implementation with Figma design specs, resulting in a smoother user experience.",
+            "Contributed to agile processes through sprint planning, refinements, and retrospectives, helping ensure timely and quality delivery.",
+            "Ensured better maintainability by refactoring legacy error-handling logic into reusable custom hooks, reducing bugs and improved consistency across the app."
+        ]
+    }
+]

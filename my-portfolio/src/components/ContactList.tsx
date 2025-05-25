@@ -16,10 +16,7 @@ const ContactList = ({ content }: { content: Contact }) => {
     }
 
     return (
-        <div
-            style={{ maxWidth: '200px' }}
-            className="flex justify-between items-center"
-        >
+        <div className="flex sm:justify-between sm:items-center py-2 sm:mb-0 sm:max-w-[200px] text-left">
             <div className="mr-2">{getIcon()}</div>
             <h5 className="text-sm">{content.contact_data}</h5>
         </div>

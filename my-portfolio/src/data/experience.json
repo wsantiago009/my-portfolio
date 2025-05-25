@@ -3,6 +3,7 @@
         "company": "Unionbank Online",
         "tenure": "Sept 2021 - Present",
         "sub_company": "Whitecloak Technologies, Inc.",
+        "link": "whitecloak",
         "role": "Frontend Developer",
         "responsibilities": [
             "Enhanced user onboarding, resulting in a smoother and more efficient user experience.",
@@ -16,6 +17,7 @@
         "company": "Atmos Cloud Solutions, Inc.",
         "tenure": "Feb 2021 - Aug 2021",
         "sub_company": null,
+        "link": "atmos",
         "role": "Frontend Developer",
         "responsibilities": [
             "Ensure high quality graphic standards and brand consistency.",
@@ -27,6 +29,7 @@
         "company": "Libelle Creative Inc.",
         "tenure": "2013 - 2021",
         "sub_company": null,
+        "link": "libelle",
         "role": "Web Developer",
         "responsibilities": [
             "Convert Prototypes into a running website.",

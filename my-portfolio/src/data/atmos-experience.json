@@ -1,0 +1,14 @@
+[
+    {
+        "project": "Qure.ph",
+        "highlight": [
+            "Developed a fully functional online consultation platform, enabling patients to consult with doctors remotely from the comfort of their homes.",
+            "Built a doctor dashboard that allows healthcare professionals to easily manage and view their patient appointments in real-time.",
+            "Integrated PayMaya as a secure and seamless payment gateway, enabling smooth transaction processing for medical consultations.",
+            "Ensured mobile responsiveness and cross-browser compatibility to deliver a consistent experience across devices.",
+            "Optimized application performance for faster load times and better scalability using modern frontend tools and best practices.",
+            "Implemented authentication and role-based access for doctors and patients to ensure data privacy and secure access.",
+            "Collaborated closely with UX designers and backend developers to align features with both user needs and business goals."
+        ]
+    }
+]

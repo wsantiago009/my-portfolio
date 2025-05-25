@@ -1,0 +1,39 @@
+[
+    {
+        "project": "El Nido Resorts",
+        "highlight": [
+            "Maintained and regularly updated the company website, ensuring plugin compatibility, security patches, and overall performance remained optimal.",
+            "Translated PSD designs into responsive and interactive modals for marketing promotions and deployed them seamlessly on the live website.",
+            "Implemented cross-browser testing to ensure consistent design and functionality across all major browsers.",
+            "Optimized images and assets to improve website load speed and performance, enhancing the overall user experience.",
+            "Collaborated with marketing and design teams to launch seasonal campaigns and update web content in a timely manner.",
+            "Monitored website analytics and performance metrics to identify areas for improvement and implemented necessary adjustments.",
+            "Ensured website content complied with SEO best practices, helping increase site visibility and organic reach."
+        ]
+    },
+    {
+        "project": "Fila Philippines",
+        "highlight": [
+            "Developed a custom WordPress theme integrated with WooCommerce to launch a fully functional e-commerce website tailored to client needs.",
+            "Maintained the website by regularly updating WordPress core, plugins, and themes to ensure security, stability, and compatibility.",
+            "Improved overall site performance by optimizing images, implementing lazy loading, and using caching plugins to reduce page load times.",
+            "Implemented SEO best practices, including meta tag optimization, and clean URL structures to boost organic search visibility.",
+            "Set up Google Analytics to track user behavior and campaign performance for data-driven decision-making.",
+            "Ensured mobile responsiveness and cross-browser compatibility for seamless access across all devices and platforms.",
+            "Handled domain setup, and SSL configuration, ensuring secure and smooth deployment.",
+            "Provided ongoing support and training to stakeholders for effective content updates and basic troubleshooting."
+        ]
+    },
+    {
+        "project": "SEAIR",
+        "highlight": [
+            "Revamped the company website to deliver a modern, refreshed UI and significantly enhanced user experience (UX) across all devices.",
+            "Maintained site stability and security by regularly updating WordPress core, themes, and plugins, and performing routine compatibility checks.",
+            "Managed domain setup, SSL certificate configuration, and corporate email integration, ensuring a smooth and secure digital presence.",
+            "Collaborated closely with the marketing team to launch seasonal campaigns, optimize landing pages, and update web content in a timely and brand-consistent manner.",
+            "Implemented performance optimizations such as image compression and caching, resulting in faster page load times and better SEO rankings.",
+            "Ensured cross-browser compatibility and mobile responsiveness to provide a seamless experience for all users.",
+            "Created and scheduled content updates, promotional banners, and blog posts aligned with marketing goals and timelines."
+        ]
+    }
+]
