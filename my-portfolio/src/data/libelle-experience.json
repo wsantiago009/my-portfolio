@@ -1,6 +1,7 @@
 [
     {
         "project": "El Nido Resorts",
+        "thumbnail": "https://placehold.co/800x300/png",
         "highlight": [
             "Maintained and regularly updated the company website, ensuring plugin compatibility, security patches, and overall performance remained optimal.",
             "Translated PSD designs into responsive and interactive modals for marketing promotions and deployed them seamlessly on the live website.",
@@ -13,6 +14,7 @@
     },
     {
         "project": "Fila Philippines",
+        "thumbnail": "https://placehold.co/800x300/png",
         "highlight": [
             "Developed a custom WordPress theme integrated with WooCommerce to launch a fully functional e-commerce website tailored to client needs.",
             "Maintained the website by regularly updating WordPress core, plugins, and themes to ensure security, stability, and compatibility.",
@@ -26,6 +28,7 @@
     },
     {
         "project": "SEAIR",
+        "thumbnail": "/images/seair.png",
         "highlight": [
             "Revamped the company website to deliver a modern, refreshed UI and significantly enhanced user experience (UX) across all devices.",
             "Maintained site stability and security by regularly updating WordPress core, themes, and plugins, and performing routine compatibility checks.",

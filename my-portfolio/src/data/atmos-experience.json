@@ -1,6 +1,7 @@
 [
     {
         "project": "Qure.ph",
+        "thumbnail": "https://placehold.co/800x300/png",
         "highlight": [
             "Developed a fully functional online consultation platform, enabling patients to consult with doctors remotely from the comfort of their homes.",
             "Built a doctor dashboard that allows healthcare professionals to easily manage and view their patient appointments in real-time.",

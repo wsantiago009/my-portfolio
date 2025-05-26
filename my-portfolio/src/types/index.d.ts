@@ -14,5 +14,6 @@ export type Experience = {
 
 export type WorkHighlight = {
     project: string
+    thumbnail: string
     highlight: string[]
 }
