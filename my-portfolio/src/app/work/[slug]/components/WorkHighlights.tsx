@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { WorkHighlight } from '@/types'
 
-import FadeInWrapper from '@/components/FadeInWrapper'
+import FadeInWrapper from '@/components/Resume/FadeInWrapper'
 
 const WorkHighlights = ({ data }: { data: WorkHighlight[] }) => {
     return (
