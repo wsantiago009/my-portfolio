@@ -17,3 +17,17 @@ export type WorkHighlight = {
     thumbnail: string
     highlight: string[]
 }
+
+type ProjectFeatures = {
+    icon: string
+    feature_title: string
+}
+
+export type Projects = {
+    name: string
+    description: string
+    features: ProjectFeatures[]
+    techstack: string[]
+    tech_position: string
+    thumbnail: string
+}

@@ -6,6 +6,7 @@ import skills from '@/data/skills.json'
 import wcExperience from '@/data/wc-experience.json'
 import atmosExperience from '@/data/atmos-experience.json'
 import libelleExperience from '@/data/libelle-experience.json'
+import projects from '@/data/projects.json'
 
 export async function GET(
     request: NextRequest,
@@ -36,6 +37,10 @@ export async function GET(
 
         if (slug === 'libelle') {
             return NextResponse.json(libelleExperience)
+        }
+
+        if (slug === 'projects') {
+            return NextResponse.json(projects)
         }
 
         return NextResponse.json({ mesage: 'Error' })
