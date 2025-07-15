@@ -1,16 +1,14 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 
-import { getFetchApi } from '@/utils/fetchApis'
-
 import PageWrapper from '@/components/layout/PageWrapper'
 
-import { Projects } from '@/types'
+import { useProjectsContext } from '@/context/ProjectsContext'
 
-export default async function page() {
-    const projectsData: Projects[] = await getFetchApi(
-        'http://localhost:3000/api/projects',
-    )
+export default function page() {
+    const { data } = useProjectsContext()
 
     return (
         <PageWrapper>
@@ -24,7 +22,7 @@ export default async function page() {
                 </p>
             </div>
             <div className="grid grid-cols-12 gap-5">
-                {projectsData.map((item, i) => {
+                {data.map((item, i) => {
                     const projectName = item?.name
 
                     return (
