@@ -1,6 +1,7 @@
-import { ProjectsProvider } from '@/context/ProjectsContext'
 import { getFetchApi } from '@/utils/fetchApis'
 import { Projects } from '@/types/index'
+
+import PageWrapper from '@/components/layout/PageWrapper'
 
 import ProjectsProviderWrapper from './components/ProjectsProviderWrapper'
 
@@ -14,7 +15,7 @@ export default async function layout({
     )
     return (
         <ProjectsProviderWrapper data={projectsData}>
-            {children}
+            <PageWrapper>{children}</PageWrapper>
         </ProjectsProviderWrapper>
     )
 }

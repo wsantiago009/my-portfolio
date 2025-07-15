@@ -3,15 +3,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-import PageWrapper from '@/components/layout/PageWrapper'
-
 import { useProjectsContext } from '@/context/ProjectsContext'
 
 export default function page() {
     const { data } = useProjectsContext()
 
     return (
-        <PageWrapper>
+        <>
             <div className="mb-8">
                 <h3 className="text-3xl font-semibold text-gray-700 mb-2">
                     Projects
@@ -55,6 +53,6 @@ export default function page() {
                     )
                 })}
             </div>
-        </PageWrapper>
+        </>
     )
 }
