@@ -14,7 +14,7 @@ export default async function Home() {
     const experienceData: Experience[] = await getFetchApi(
         'http://localhost:3000/api/experience',
     )
-    const skillsData: String[] = await getFetchApi(
+    const skillsData: string[] = await getFetchApi(
         'http://localhost:3000/api/skills',
     )
 
