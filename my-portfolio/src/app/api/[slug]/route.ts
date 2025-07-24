@@ -8,12 +8,19 @@ import atmosExperience from '@/data/atmos-experience.json'
 import libelleExperience from '@/data/libelle-experience.json'
 import projects from '@/data/projects.json'
 
+// export async function GET(
+//     request: NextRequest,
+//     { params }: { params: Promise<{ slug: string }> },
+// ) {
+//     try {
+//         const { slug } = await params
 export async function GET(
     request: NextRequest,
     { params }: { params: Promise<{ slug: string }> },
 ) {
     try {
-        const { slug } = await params
+        const resolvedParams = await params
+        const { slug } = resolvedParams
 
         if (slug === 'contact') {
             return NextResponse.json(contact)
