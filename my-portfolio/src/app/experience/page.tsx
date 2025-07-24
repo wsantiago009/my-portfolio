@@ -1,7 +1,7 @@
 import { BriefcaseBusiness } from 'lucide-react'
 
 import { getFetchApi } from '@/utils/fetchApis'
-import { Contact, Experience } from '@/types'
+import { Experience } from '@/types'
 
 import PageWrapper from '@/components/layout/PageWrapper'
 
