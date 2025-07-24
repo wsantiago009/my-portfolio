@@ -4,7 +4,7 @@ import PaperCanvass from '@/components/Resume/PaperCanvass'
 import WorkHighlights from './components/WorkHighlights'
 import { getFetchApi } from '@/utils/fetchApis'
 
-const WorkPage = async ({ params }: { params: { slug: string } }) => {
+const WorkPage = async ({ params }: { params: Promise<{ slug: string }> }) => {
     const { slug } = await params
     const workHighlight = await getFetchApi(`http://localhost:3000/api/${slug}`)
 

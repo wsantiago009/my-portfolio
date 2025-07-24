@@ -1,4 +1,4 @@
-const SkillList = ({ content }: { content: String[] }) => {
+const SkillList = ({ content }: { content: string[] }) => {
     return (
         <ul className="skills-wrapper text-sm md:pl-3">
             {content?.map((item, i) => (
