@@ -13,7 +13,7 @@ export async function GET(
     { params }: { params: { slug: string } },
 ) {
     try {
-        const { slug } = await params
+        const { slug } = params
 
         if (slug === 'contact') {
             return NextResponse.json(contact)
@@ -43,6 +43,11 @@ export async function GET(
             return NextResponse.json(projects)
         }
 
-        return NextResponse.json({ mesage: 'Error' })
-    } catch {}
+        return NextResponse.json({ message: 'Error' })
+    } catch {
+        return NextResponse.json(
+            { message: 'Internal Server Error' },
+            { status: 500 },
+        )
+    }
 }
