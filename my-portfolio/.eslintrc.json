@@ -1,7 +1,7 @@
 {
     "extends": "next/core-web-vitals",
     "rules": {
-        "semi": ["off", "error", "never"],
+        "semi": ["warn", "always"],
         "indent": [4, "tab"],
         "no-tabs": 0,
         "react/no-unescaped-entities": "off"
