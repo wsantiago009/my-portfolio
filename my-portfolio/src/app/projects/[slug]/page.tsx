@@ -6,7 +6,7 @@ import BackButton from '@/components/BackButton'
 
 import { useProjectsContext } from '@/context/ProjectsContext'
 
-export default function page({
+export default function Page({
     params,
 }: {
     params: Promise<{ slug: string }>

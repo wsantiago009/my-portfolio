@@ -3,6 +3,7 @@
     "rules": {
         "semi": ["off", "error", "never"],
         "indent": [4, "tab"],
-        "no-tabs": 0
+        "no-tabs": 0,
+        "react/no-unescaped-entities": "off"
     }
 }

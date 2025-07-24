@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 import { useProjectsContext } from '@/context/ProjectsContext'
 
-export default function page() {
+export default function Page() {
     const { data } = useProjectsContext()
 
     return (
