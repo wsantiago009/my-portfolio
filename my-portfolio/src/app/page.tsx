@@ -1,4 +1,7 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
+import MyImage from '../../public/images/homepage-image.svg'
 
 import PageWrapper from '@/components/layout/PageWrapper'
 
@@ -8,7 +11,7 @@ export default async function Home() {
             <div className="flex justify-center gap-5">
                 <div className="w-full max-w-md">
                     <Image
-                        src="https://placehold.co/800x400/png"
+                        src={MyImage}
                         alt="profile"
                         width={800}
                         height={400}
@@ -30,9 +33,16 @@ export default async function Home() {
                             Explore my projects to see my work.
                         </p>
                     </div>
-                    <button className="bg-blue-600 text-white w-full p-2 rounded-lg">
+
+                    <Link
+                        href="/projects"
+                        // className="p-3 bg-blue-200 rounded-lg text-gray-700 font-semibold"
+                        className="bg-blue-600 text-white w-full p-2 rounded-lg text-center"
+                    >
+                        {/* <button className="bg-blue-600 text-white w-full p-2 rounded-lg"> */}
                         View Projects
-                    </button>
+                        {/* </button> */}
+                    </Link>
                 </div>
             </div>
         </PageWrapper>
