@@ -10,9 +10,7 @@ export default async function layout({
 }: {
     children: React.ReactNode
 }) {
-    const projectsData: Projects[] = await getFetchApi(
-        'http://localhost:3000/api/projects',
-    )
+    const projectsData: Projects[] = await getFetchApi('/api/projects')
     return (
         <ProjectsProviderWrapper data={projectsData}>
             <PageWrapper>{children}</PageWrapper>

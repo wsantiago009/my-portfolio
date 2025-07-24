@@ -6,9 +6,7 @@ import { Experience } from '@/types'
 import PageWrapper from '@/components/layout/PageWrapper'
 
 export default async function page() {
-    const experienceData: Experience[] = await getFetchApi(
-        'http://localhost:3000/api/experience',
-    )
+    const experienceData: Experience[] = await getFetchApi('/api/experience')
     return (
         <PageWrapper>
             <div className="mb-8">

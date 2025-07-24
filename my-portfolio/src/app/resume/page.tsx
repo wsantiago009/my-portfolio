@@ -8,15 +8,9 @@ import SkillList from '@/components/Resume/SkillList'
 import { Contact, Experience } from '@/types'
 
 export default async function Home() {
-    const contactData: Contact[] = await getFetchApi(
-        'http://localhost:3000/api/contact',
-    )
-    const experienceData: Experience[] = await getFetchApi(
-        'http://localhost:3000/api/experience',
-    )
-    const skillsData: string[] = await getFetchApi(
-        'http://localhost:3000/api/skills',
-    )
+    const contactData: Contact[] = await getFetchApi('/api/contact')
+    const experienceData: Experience[] = await getFetchApi('/api/experience')
+    const skillsData: string[] = await getFetchApi('/api/skills')
 
     return (
         <PaperCanvass>
