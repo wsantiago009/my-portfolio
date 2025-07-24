@@ -5,6 +5,7 @@ export type Contact = {
 
 export type Experience = {
     company: string
+    description: string
     tenure: string
     sub_company: string
     role: string

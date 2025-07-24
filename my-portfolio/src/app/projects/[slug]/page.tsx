@@ -2,6 +2,8 @@
 import React from 'react'
 import Image from 'next/image'
 
+import BackButton from '@/components/BackButton'
+
 import { useProjectsContext } from '@/context/ProjectsContext'
 
 export default function page({
@@ -17,6 +19,7 @@ export default function page({
 
     return (
         <div className="flex flex-col gap-7 [&_h4]:text-lg [&_h4]:font-bold [&_h4]:mb-2">
+            <BackButton url="./" />
             <div>
                 {selectedProject?.thumbnail && (
                     <Image

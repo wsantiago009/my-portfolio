@@ -1,5 +1,6 @@
+import BackButton from '@/components/BackButton'
+
 import PaperCanvass from '@/components/Resume/PaperCanvass'
-import BackButton from '@/components/Resume/BackButton'
 import WorkHighlights from './components/WorkHighlights'
 import { getFetchApi } from '@/utils/fetchApis'
 

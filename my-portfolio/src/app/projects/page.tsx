@@ -11,9 +11,7 @@ export default function page() {
     return (
         <>
             <div className="mb-8">
-                <h3 className="text-3xl font-semibold text-gray-700 mb-2">
-                    Projects
-                </h3>
+                <h3>Projects</h3>
                 <p>
                     A selection of my work, showcasing my skills and experience
                     in frontend development.

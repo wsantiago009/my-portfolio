@@ -1,6 +1,7 @@
 [
     {
         "company": "Unionbank Online",
+        "description": "As a Front-End Developer, I played a key role in enhancing the user onboarding process, resulting in a smoother and more efficient experience for users. I accelerated development by creating reusable components, which improved scalability and significantly boosted overall team productivity. By closely aligning UI implementation with Figma designs, I ensured improved usability and a more polished visual experience. I also fostered strong collaboration with cross-functional teams—working closely with Product, UX, and QA—to help drive successful project outcomes. Operating in an Agile environment, I quickly adapted to shifting requirements and consistently delivered high-quality features on time.",
         "tenure": "Sept 2021 - Present",
         "sub_company": "Whitecloak Technologies, Inc.",
         "link": "whitecloak",
@@ -15,6 +16,7 @@
     },
     {
         "company": "Atmos Cloud Solutions, Inc.",
+        "description": "At my previous company, I was responsible for ensuring high-quality graphic standards and maintaining strict brand consistency across all user-facing components. I contributed to the scalability of the front-end codebase by building reusable and maintainable components, which streamlined future development and reduced redundancy. Additionally, I was actively involved in estimating timelines for upcoming project phases, helping the team plan more effectively and meet delivery targets with greater accuracy.",
         "tenure": "Feb 2021 - Aug 2021",
         "sub_company": null,
         "link": "atmos",
@@ -27,6 +29,7 @@
     },
     {
         "company": "Libelle Creative Inc.",
+        "description": "During my time at this company, I was responsible for converting design prototypes into fully functional and responsive websites, ensuring seamless performance across various devices and screen sizes. I managed the company’s Linux/UNIX-based server environment, handling configuration, maintenance, and deployments. Additionally, I created isolated website environments tailored to client needs, enabling efficient development and testing. My role also included domain management tasks such as DNS configuration, domain registration, and renewal handling, ensuring smooth website accessibility and uptime.",
         "tenure": "2013 - 2021",
         "sub_company": null,
         "link": "libelle",
