@@ -7,11 +7,13 @@ export const getFetchApi = async (url: string) => {
         })
 
         if (response.ok) {
-            return await response.json()
+            const data = await response.json()
+            return Array.isArray(data) ? data : []
         }
 
         return []
     } catch (e) {
         console.error(e)
+        return []
     }
 }
