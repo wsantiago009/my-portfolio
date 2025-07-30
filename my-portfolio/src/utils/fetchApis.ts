@@ -5,10 +5,15 @@ export const getFetchApi = async (url: string) => {
         const response = await fetch(`${baseUrl}${url}`, {
             next: { revalidate: 3600 },
         })
-        const result = await response.json()
 
-        return result
+        if (response.ok) {
+            const data = await response.json()
+            return Array.isArray(data) ? data : []
+        }
+
+        return []
     } catch (e) {
         console.error(e)
+        return []
     }
 }

@@ -50,7 +50,7 @@ export async function GET(
             return NextResponse.json(projects)
         }
 
-        return NextResponse.json({ message: 'Error' })
+        return NextResponse.json({ message: 'Error' }, { status: 404 })
     } catch {
         return NextResponse.json(
             { message: 'Internal Server Error' },
