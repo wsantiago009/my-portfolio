@@ -1,3 +1,6 @@
+import { dynamicIconImports } from 'lucide-react/dynamic'
+type IconName = keyof typeof dynamicIconImports
+
 export type Contact = {
     contact_data: string
     icon: string
@@ -20,12 +23,13 @@ export type WorkHighlight = {
 }
 
 type ProjectFeatures = {
-    icon: string
+    icon: IconName
     feature_title: string
 }
 
 export type Projects = {
     name: string
+    slug: string
     description: string
     features: ProjectFeatures[]
     techstack: string[]
