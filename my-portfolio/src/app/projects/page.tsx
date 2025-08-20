@@ -20,12 +20,11 @@ export default function Page() {
             <div className="grid grid-cols-12 gap-5">
                 {data.map((item, i) => {
                     const projectName = item?.name
+                    const slugUrl = item?.slug || projectName
 
                     return (
                         <div className="col-span-4" key={i}>
-                            <Link
-                                href={`projects/${projectName?.toLowerCase()}`}
-                            >
+                            <Link href={`projects/${slugUrl?.toLowerCase()}`}>
                                 <div className="mb-4">
                                     <Image
                                         className="rounded-md"

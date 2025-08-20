@@ -1,8 +1,49 @@
 [
     {
         "name": "UnionBank",
+        "description": "A online banking solution with seamless digital account opening, giving customers secure 24/7 access to their finances—from opening an account to checking balances, transferring funds, paying bills, and managing money—all without visiting a branch.",
+        "thumbnail": "/images/ub_project.svg",
+        "features": [
+            {
+                "icon": "credit-card",
+                "feature_title": "Account opening"
+            },
+            {
+                "icon": "arrow-left-right",
+                "feature_title": "Fund transfer"
+            },
+            {
+                "icon": "receipt-text",
+                "feature_title": "Bills Payment"
+            },
+            {
+                "icon": "wallet",
+                "feature_title": "Check Balance"
+            },
+            {
+                "icon": "landmark",
+                "feature_title": "Branch Visit"
+            }
+        ],
+        "techstack": [
+            "Javascript",
+            "CSS",
+            "CSS3",
+            "HTML",
+            "HTML5",
+            "React",
+            "Redux",
+            "AntD",
+            "Bootstrap",
+            "Rest API"
+        ],
+        "tech_position": "As a Frontend Developer, I led the development of the web platform, making digital account opening simple, secure, and accessible for customers. My responsibilities included integrating multiple APIs to connect backend services with the front-end flow, enabling real-time data validation and a frictionless account opening process. I also translated Figma designs into reusable, scalable components to ensure design consistency and accelerate development. By combining technical execution with a strong emphasis on user experience, I delivered a secure and efficient online banking solution aligned with both business goals and customer needs"
+    },
+    {
+        "name": "El Nido Resorts",
+        "slug": "el-nido",
         "description": "Lorem ipsum",
-        "thumbnail": "https://placehold.co/800x400/png",
+        "thumbnail": "/images/el_nido_project.svg",
         "features": [
             {
                 "icon": "icon1",
@@ -18,18 +59,21 @@
             }
         ],
         "techstack": [
-            "React",
-            "Redux",
-            "AntD",
-            "Bootstrap",
-            "Rest API"
+            "PHP",
+            "jQuery",
+            "Wordpress",
+            "Javascript",
+            "CSS",
+            "CSS3",
+            "HTML",
+            "HTML5"
         ],
         "tech_position": "Lorem Ipsum"
     },
     {
-        "name": "UnionBank2",
+        "name": "Seair",
         "description": "Lorem ipsum",
-        "thumbnail": "https://placehold.co/800x400/png",
+        "thumbnail": "/images/seair_project.svg",
         "features": [
             {
                 "icon": "icon1",
@@ -45,38 +89,11 @@
             }
         ],
         "techstack": [
-            "React",
-            "Redux",
-            "AntD",
-            "Bootstrap",
-            "Rest API"
-        ],
-        "tech_position": "Lorem Ipsum"
-    },
-    {
-        "name": "UnionBank3",
-        "description": "Lorem ipsum",
-        "thumbnail": "https://placehold.co/800x400/png",
-        "features": [
-            {
-                "icon": "icon1",
-                "feature_title": "title1"
-            },
-            {
-                "icon": "icon2",
-                "feature_title": "title2"
-            },
-            {
-                "icon": "icon1",
-                "feature_title": "title3"
-            }
-        ],
-        "techstack": [
-            "React",
-            "Redux",
-            "AntD",
-            "Bootstrap",
-            "Rest API"
+            "PHP",
+            "jQuery",
+            "Wordpress",
+            "CSS / CSS3",
+            "HTML / HTML5"
         ],
         "tech_position": "Lorem Ipsum"
     }

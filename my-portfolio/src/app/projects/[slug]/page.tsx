@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+import { DynamicIcon } from 'lucide-react/dynamic'
 
 import BackButton from '@/components/BackButton'
 
@@ -13,8 +14,8 @@ export default function Page({
 }) {
     const { data } = useProjectsContext()
     const { slug } = React.use(params)
-    const selectedProject = data?.find(
-        (project) => project.name.toLowerCase() === slug,
+    const selectedProject = data?.find((project) =>
+        [project.name.toLowerCase(), project.slug].includes(slug),
     )
 
     return (
@@ -43,27 +44,29 @@ export default function Page({
                 <h4>Key Features</h4>
                 <ul>
                     {selectedProject?.features.map((item, i) => (
-                        <li key={i}>{item.feature_title}</li>
+                        <li key={i} className="flex my-4">
+                            <DynamicIcon name={item.icon} className="mr-3" />
+                            {item.feature_title}
+                        </li>
                     ))}
                 </ul>
             </div>
             <div>
                 <h4>Technologies Used</h4>
-                <ul className="inline-flex [&>*]:px-5 [&>*]:py-2 [&>*]:bg-gray-300 [&>*]:my-2 [&>*]:rounded-xl [&>*]:text-gray-700 space-x-5">
+                <ul className="grid grid-cols-12 [&>*]:px-5 [&>*]:py-2 [&>*]:bg-gray-300 [&>*]:my-2 [&>*]:rounded-xl [&>*]:text-gray-700 [&>*]:mr-5">
                     {selectedProject?.techstack.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li
+                            key={i}
+                            className="md:col-span-2 col-span-12 text-center content-center"
+                        >
+                            {item}
+                        </li>
                     ))}
                 </ul>
             </div>
             <div>
                 <h4>My Role</h4>
-                <p>
-                    As a Frontend Developer, I was responsible for implementing
-                    the user interface, integrating with backend services, and
-                    ensuring a responsive and user-friendly design. I also
-                    contributed to code reviews and collaborated with the design
-                    team to refine the user experience.
-                </p>
+                <p>{selectedProject?.tech_position}</p>
             </div>
         </div>
     )
