@@ -24,7 +24,7 @@ export default function Page({
             <div>
                 {selectedProject?.thumbnail && (
                     <Image
-                        className="rounded-md"
+                        className="rounded-md bg-cover"
                         src={selectedProject?.thumbnail}
                         alt="profile"
                         width={800}
