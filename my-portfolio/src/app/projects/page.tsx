@@ -25,7 +25,7 @@ export default function Page() {
 
                     return (
                         <div
-                            className="group lg:col-span-4 sm:col-span-6 col-span-12 mb-4"
+                            className="group sm:col-span-6 col-span-12 mb-4"
                             key={i}
                         >
                             <Link href={`projects/${slugUrl?.toLowerCase()}`}>
