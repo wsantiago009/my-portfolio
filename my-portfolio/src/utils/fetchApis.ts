@@ -5,7 +5,7 @@ export const getFetchApi = async (url: string) => {
         const response = await fetch(`${baseUrl}${url}`, {
             next: { revalidate: 3600 },
         })
-console.log(baseUrl)
+
         if (response.ok) {
             const data = await response.json()
             return Array.isArray(data) ? data : []

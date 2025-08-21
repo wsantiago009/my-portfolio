@@ -5,9 +5,7 @@ import { Experience } from '@/types'
 const ExperienceList = ({ content }: { content: Experience }) => {
     return (
         <div className="mb-5">
-            <Link className="text-gray-700 hover:underline" href={`work/${content.link}`}>
-                {content.company} | {content.tenure}
-            </Link>
+            <p>{content.company} | {content.tenure}</p>
             <div className="text-sm">
                 <h6 className="text-gray-700">{content.sub_company}</h6>
                 <h6 className="mb-2">{content.role}</h6>

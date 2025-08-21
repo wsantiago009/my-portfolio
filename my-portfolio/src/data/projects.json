@@ -37,7 +37,53 @@
             "Bootstrap",
             "Rest API"
         ],
-        "tech_position": "As a Frontend Developer, I led the development of the web platform, making digital account opening simple, secure, and accessible for customers. My responsibilities included integrating multiple APIs to connect backend services with the front-end flow, enabling real-time data validation and a frictionless account opening process. I also translated Figma designs into reusable, scalable components to ensure design consistency and accelerate development. By combining technical execution with a strong emphasis on user experience, I delivered a secure and efficient online banking solution aligned with both business goals and customer needs"
+        "tech_position": "As a Frontend Developer, I led the development of the web platform, making digital account opening simple, secure, and accessible for customers. My responsibilities included integrating multiple APIs to connect backend services with the front-end flow, enabling real-time data validation and a frictionless account opening process. I also translated Figma designs into reusable, scalable components to ensure design consistency and accelerate development. By combining technical execution with a strong emphasis on user experience, I delivered a secure and efficient online banking solution aligned with both business goals and customer needs."
+    },
+    {
+        "name": "Qure PH",
+        "slug": "qure-ph",
+        "description": "This online consultation app makes healthcare simple, fast, and convenient—no more long waits or trips to clinics. With access to a wide network of licensed doctors across multiple specialties,  even receive prescriptions right from their phone. The app also stores medical history, records, and lab results in one place, making follow-ups effortless. With flexible payment options, timely reminders, and round-the-clock availability, it’s designed to put quality healthcare at your fingertips—safe, seamless, and stress-free.",
+        "thumbnail": "/images/qure_project.svg",
+        "features": [
+            {
+                "icon": "alarm-clock",
+                "feature_title": "Appointment Booking & Scheduling"
+            },
+            {
+                "icon": "headset",
+                "feature_title": "Video & Audio Calls"
+            },
+            {
+                "icon": "pill",
+                "feature_title": "E-Prescriptions"
+            },
+            {
+                "icon": "user",
+                "feature_title": "User Profiles"
+            },
+            {
+                "icon": "stethoscope",
+                "feature_title": "Doctor Profiles"
+            },
+            {
+                "icon": "key-round",
+                "feature_title": "Multi-Role Access"
+            },
+            {
+                "icon": "credit-card",
+                "feature_title": "Payment Options"
+            }
+        ],
+        "techstack": [
+            "Python",
+            "Javascript",
+            "Django",
+            "CSS",
+            "CSS3",
+            "HTML",
+            "HTML5"
+        ],
+        "tech_position": "I handled the end-to-end creation of the online consultation platform, building both the user-facing website and the dedicated dashboards for patients and doctors. I developed key features such as the automatic generation of e-prescriptions, secure payment options, and dynamic video/call room URL links to enable seamless virtual consultations. Beyond the core functionality, I implemented appointment booking and scheduling tools, integrated reminders and notifications for upcoming sessions, and designed medical history tracking so patients and doctors could easily access past consultations and records. I also focused on creating a clean, user-friendly interface to ensure smooth navigation, while collaborating with stakeholders to align the platform’s features with business goals and healthcare requirements. My role combined technical development, UX implementation, and cross-team coordination to deliver a reliable and accessible digital healthcare solution."
     },
     {
         "name": "El Nido Resorts",
@@ -64,9 +110,9 @@
         ],
         "techstack": [
             "PHP",
+            "Javascript",
             "jQuery",
             "Wordpress",
-            "Javascript",
             "CSS",
             "CSS3",
             "HTML",
@@ -94,8 +140,9 @@
         ],
         "techstack": [
             "PHP",
-            "jQuery",
+            "Javascript",
             "Wordpress",
+            "jQuery",
             "CSS",
             "CSS3",
             "HTML",
