@@ -42,20 +42,24 @@
     {
         "name": "El Nido Resorts",
         "slug": "el-nido",
-        "description": "Lorem ipsum",
+        "description": "El Nido Resorts is a collection of eco-luxury island resorts in Palawan, Philippines, offering world-class hospitality in breathtaking natural settings. Known for its commitment to sustainability, the resorts combine comfort and adventure with eco-friendly practices, allowing guests to experience paradise responsibly. Guests can conveniently book online and explore the latest offers for their next island getaway.",
         "thumbnail": "/images/el_nido_project.svg",
         "features": [
             {
-                "icon": "icon1",
-                "feature_title": "title1"
+                "icon": "calendar-days",
+                "feature_title": "Online booking"
             },
             {
-                "icon": "icon2",
-                "feature_title": "title2"
+                "icon": "gift",
+                "feature_title": "Offers & Promotions"
             },
             {
-                "icon": "icon1",
-                "feature_title": "title3"
+                "icon": "tree-palm",
+                "feature_title": "Resort Profiles"
+            },
+            {
+                "icon": "send",
+                "feature_title": "Event Inquiry"
             }
         ],
         "techstack": [
@@ -68,33 +72,35 @@
             "HTML",
             "HTML5"
         ],
-        "tech_position": "Lorem Ipsum"
+        "tech_position": "In my role with El Nido Resorts, I was responsible for maintaining and enhancing their official website, ensuring smooth performance, security, and reliability across both the application and its servers. This included monitoring uptime, applying updates, troubleshooting technical issues, and optimizing the site for better user experience. Beyond the technical aspects, I closely collaborated with the marketing team to support their campaigns and promotions. I translated their creative concepts into functional web content by designing and publishing promotional banners, special offer pages, and call-to-action features that aligned with their brand’s eco-luxury identity. This work helped drive guest engagement by making it easier for visitors to view the latest offers, explore resort experiences, and book their stays online."
     },
     {
         "name": "Seair",
-        "description": "Lorem ipsum",
+        "description": "South East Asian Airlines was a boutique carrier connecting major cities and remote tourist destinations such as Boracay, Palawan, Batanes, and Cebu, with the goal of giving travelers the convenience of booking their flights right at their fingertips",
         "thumbnail": "/images/seair_project.svg",
         "features": [
             {
-                "icon": "icon1",
-                "feature_title": "title1"
+                "icon": "calendar-days",
+                "feature_title": "Booking"
             },
             {
-                "icon": "icon2",
-                "feature_title": "title2"
+                "icon": "tag",
+                "feature_title": "Promotions & Special Offers"
             },
             {
-                "icon": "icon1",
-                "feature_title": "title3"
+                "icon": "message-circle",
+                "feature_title": "Help Center"
             }
         ],
         "techstack": [
             "PHP",
             "jQuery",
             "Wordpress",
-            "CSS / CSS3",
-            "HTML / HTML5"
+            "CSS",
+            "CSS3",
+            "HTML",
+            "HTML5"
         ],
-        "tech_position": "Lorem Ipsum"
+        "tech_position": "In my role with South East Asian Airlines, I was responsible for maintaining their website, servers, and domains to ensure smooth performance, security, and reliability for both travelers and the business. I assisted in setting up and managing business email accounts, supporting internal teams with professional and secure communication tools. A key part of my work involved close collaboration with the marketing team—translating their campaigns and promotions into engaging web content, such as banners, special offer pages, and booking call-to-actions, to increase visibility and drive customer engagement. I also handled regular content updates, making sure flight schedules, promotions, and destination details were always accurate and up to date. Through this combination of technical management and cross-team collaboration, I helped ensure the airline’s website remained a reliable, customer-friendly platform for flight bookings and promotions."
     }
 ]
